@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*https://fonts.google.com/ шрифты*/
+
+body {
+background-color: rgb(231, 224, 238);
+color: rgb(10, 1, 22);
+
+font-size: 16px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+
+/*font: normal 16px 'Roboto', sans-serif; аналог написания кода выше*/
+
+}
+
+a{color: black;  
+text-decoration: none;  
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+.avatar {
+width: 150px;
+border-radius: 28px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+
+}
+
+
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+@media(max-width: 700px) {
+.info{
+    text-align: center;
+    display: block;
+}
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p{
+color: rgb(0, 0, 26);
+margin: 0;
+font-style: italic;
+text-decoration: none;
+/*text-transform: none;*/
+/*letter-spacing: 5px;*/
+word-spacing: 5px;
+}
+
+/*Box Model*/
+.container{
+max-width: 1000px; /*ширина*/
+margin: auto;
+padding-top: 30px;
+}
+
+.card{
+    background: rgb(208, 182, 236);
+    padding: 15px 20px;
+    border: 0px solid blue;
+    margin-bottom: 10px;
+    box-shadow:4px 4px 14px rgba(0, 0, 0, 25);
+    border-radius: 28px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+
+
+.list{
+    padding: 0;
+    list-style:inside;
+}
+
+.list li{
+   margin-bottom: 5px ; 
+}
+
+.table{
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 5px;
+    text-align: center;
+    }
+
+
+.table td:nth-last-child(2), .table td:nth-last-child(2){
+    color: rgb(124, 11, 158);
+}
+
+.links{
+list-style: none;
+padding: 0px;
+}
+
+.links li {
+    margin-bottom: 10px;
+padding-bottom: 5px;
+border-bottom: 1px solid rgb(231, 224, 238);
+}
+
+.contakt h2{
+    text-align: center;
+}
+
+.form-goup label{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    
+}
+
+.form-goup input{
+    width: 30%;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-radius: 28px;
+    padding:  6px 4px 4px 8px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    color: black;
+    font-family: inherit;
+ }
+.form-goup textarea{
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    background: transparent;
+    width: 100%;
+    padding:  15px 15px 15px 15px;
+} 
+
+.btn{
+    margin-top: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    border-radius: 28px;
+    padding:  7px;
+    width: 100px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/*.table tr:nth-child(odd){
+    background: red;
+} */
+
+
+
+/*
+
+.hobb{
+    background: rgb(208, 182, 236);
+    padding: 15px;
+    border: 5px solid blue;
+    margin: 5px;
+    box-shadow:4px 4px 14px rgba(0, 0, 0, 25);
+    border-radius: 28px;
+}
+
+.hh{
+    background: rgb(208, 182, 236);
+padding: 15px;
+border: 5px solid blue;
+margin: 5px;
+box-shadow:4px 4px 14px rgba(0, 0, 0, 25);
+border-radius: 28px;
+}
+
+.nast{
+    background: rgb(208, 182, 236);
+padding: 15px;
+border: 5px solid blue;
+margin: 5px;
+box-shadow:4px 4px 14px rgba(0, 0, 0, 25);
+border-radius: 28px;
+}*/
+
+/*div{
+    background: rgb(rgb(231, 224, 238));
+    }*/
