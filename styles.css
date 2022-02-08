@@ -80,7 +80,7 @@ padding-top: 30px;
     margin-bottom: 10px;
     box-shadow:4px 4px 14px rgba(0, 0, 0, 25);
     border-radius: 28px;
-    width: 100%;
+    width: 95%;
 }
 
 .card h2{
@@ -152,7 +152,7 @@ border-bottom: 1px solid rgb(231, 224, 238);
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
     background: transparent;
-    width: 100%;
+    width: 95%;
     padding:  15px 15px 15px 15px;
 } 
 
